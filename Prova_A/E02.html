@@ -2,16 +2,27 @@
 <script>
     /*
     Problema: Identificar vogais
-    Considere a seguinte frase: "O rato roeu a roupa do rei de Roma". Peça para o usuário informar uma vogal. Conte quantas vezes a vogal aparece na frase. Apresente o resultado para o usuário.
+    Considere a seguinte frase: "O rato roeu a roupa do rei de Roma". Peça para o usuário informar uma vogal. Conte quantas vezes a vogal aparece na frase.
+     Apresente o resultado para o usuário.
     Por exemplo, se o usuário informar a vogal "a", o resultado será 4, que é a quantidade de vezes que a vogal "a" aparece na frase.
     */
 
     //Entrada
+const vogal = prompt ("informe uma vogal")
 
-
+let rato = ["O rato roeu a roupa do rei de Roma"]
     //Processamento
-
+    for (let i = 0; i < rato.length; i++) {
+const letras= listaDeLetras[i].toLowerCase()
+if(repetidas.includes(letras) == false){
+    repetidas.push(letras)
+}
+}
+    // for (let index = 0; index = rato.length; index++) {
+    //     const element =  [index]
+        
+    // }
 
     //Saída
-
+document.write(repetidas)
 </script>
